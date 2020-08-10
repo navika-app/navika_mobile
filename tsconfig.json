@@ -8,5 +8,11 @@
     "skipLibCheck": true,
     "resolveJsonModule": true,
     "strict": true
-  }
+  },
+  "exclude": [
+    "node_modules",
+    "bable.config.js",
+    "metro.config.js",
+    "jest.config.js"
+  ]
 }
