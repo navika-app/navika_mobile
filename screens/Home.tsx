@@ -1,14 +1,10 @@
 import React from "react";
-import { StyleSheet, Text, View, Button } from "react-native";
+import { StyleSheet, Text, View } from "react-native";
 
-export default function Home({ navigation }) {
+export default function Home() {
   return (
     <View style={styles.container}>
       <Text>This will be our Home screen listing all user goals</Text>
-      <Button
-        title="Go to History"
-        onPress={() => navigation.navigate("History")}
-      ></Button>
     </View>
   );
 }
